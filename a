@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My HTML5 Project</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>About This Project</h2>
+            <p>This is my final project. It follows best practices in structure, accessibility, and validation.</p>
+        </section>
+
+        <section>
+            <h2>Gallery</h2>
+            <img src="https://drive.google.com/file/d/1JlamZoER0TuFcIq5cvKSvK0n_62bInrq/view?usp=sharing" alt="A mmountain view=">
+            <img src="https://drive.google.com/file/d/1RblHgQJxCrvL1dLM6bcn8_QC9SeSm1HM/view?usp=sharing" alt="A delicious noodle">
+            <img src="https://drive.google.com/file/d/1KYJbHJ81C-lyIkZ5xFDW7cGBdxeMpKEz/view?usp=sharing" alt="A peaceful sunset over the homestay">
+        </section>
+
+        <section>
+            <h2>My Favorite Activities</h2>
+            <ul>
+                <li>Reading books 📚</li>
+                <li>Exploring new places 🌍</li>
+                <li>Listening to music 🎧</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>More Resources</h2>
+            <p>Check out <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My HTML5 Project</p>
+    </footer>
+
+</body>
+</html>
